@@ -1,0 +1,11 @@
+Website Reference:
+1. https://asphaltlegends.com/
+2. https://speed.garena.co.id/main/id
+3. gameloft.com
+
+Cara membuka Website:
+1. Buka VSCode.
+2. Klik file ->open folder
+3. Cari dan klik folder "AOL HCI Lab-Juan Fausta Pringadi-2702217743"
+4. Jika sudah terbuka di VSCode, pilih file "home.html" pada folder HTML.
+5. Pada kanan bawah, klik "Go Live" dan pastikan extension Live Extension sudah terpasang di VSCode Anda.

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asphatl 9: ReJends</title>
+    <link rel="stylesheet" href="/Website Asphatl 9 (Asset Gambar di dalam folder ini)/CSS/subscription_styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/handelgothic-tl" rel="stylesheet">
+    <link rel="icon" href="/Website Asphatl 9 (Asset Gambar di dalam folder ini)/Picture Asset/Asphatl 9 ReJends Logo PNG White (1).png" type="image/png">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="/Website Asphatl 9 (Asset Gambar di dalam folder ini)/Picture Asset/Asphatl 9 ReJends Logo PNG White (1).png" alt="Logo Asphalt" id="logo_asphatl">
+        </div>
+        <ul class="nav-links">
+            <li><a href="/Website Asphatl 9 (Asset Gambar di dalam folder ini)/HTML/home.html">Home</a></li>
+            <li><a href="/Website Asphatl 9 (Asset Gambar di dalam folder ini)/HTML/cars.html">Cars</a></li>
+            <li><a href="/Website Asphatl 9 (Asset Gambar di dalam folder ini)/HTML/news.html">News</a></li>
+            <li><a href="/Website Asphatl 9 (Asset Gambar di dalam folder ini)/HTML/esports.html">Esports</a></li>
+            <li><a href="/Website Asphatl 9 (Asset Gambar di dalam folder ini)/HTML/subscription.html">Subscription</a></li>
+        </ul>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+    <h1>Be Our Subscriber!</h1>
+    <div class="form-container">
+        <div class="form-subscription">
+            <form method="get">
+                <div>
+                    <label for="choice">Types of Subscription :</label>
+                    <input type="radio" name="type" id="content-creator" value="Content Creator"> Content Creator
+                    <input type="radio" name="type" id="viewer" value="Viewer"> Viewer
+                </div>
+                <div>
+                    <label for="username">Name :</label>
+                    <input type="text" name="username" id="username">
+                </div>
+                <div>
+                    <label for="email">Email :</label>
+                    <input type="text" name="email" id="email">
+                </div>
+                <div>
+                    <label for="birthday">Date of Birth: </label>
+                    <input type="date" name="birthday" id="birthday">
+                </div>
+                <div>
+                    <label for="gender">Gender :</label>
+                    <input type="radio" name="gender" id="male" value="Male"> Male
+                    <input type="radio" name="gender" id="female" value="Female"> Female
+                </div>
+                <div class="checkbox-container">
+                    <input type="checkbox" name="agreement" id="agreement">
+                    <label for="agreement" id="accept">I accept all terms and conditions</label>
+                </div>
+                <div>
+                    <label for="" id="errorMessage"></label>
+                </div>
+                <button type="button" onclick="validatedata()">Submit</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p>2024 Gamefolt & RJStudio</p>
+        <div class="sosmed">
+            <img src="/Website Asphatl 9 (Asset Gambar di dalam folder ini)/Picture Asset/Instagram logo.png" alt="instagram" class="sosmed-icon">
+            <img src="/Website Asphatl 9 (Asset Gambar di dalam folder ini)/Picture Asset/Youtube Logo.png" alt="Youtube" class="sosmed-icon">
+            <img src="/Website Asphatl 9 (Asset Gambar di dalam folder ini)/Picture Asset/X logo.png" alt="X" class="sosmed-icon">
+            <img src="/Website Asphatl 9 (Asset Gambar di dalam folder ini)/Picture Asset/Tiktok Logo.png" alt="Tiktok" class="sosmed-icon">
+            <img src="/Website Asphatl 9 (Asset Gambar di dalam folder ini)/Picture Asset/Facebook Logo.png" alt="Facebook" class="sosmed-icon">
+        </div>
+    </footer>
+    <script src="/Website Asphatl 9 (Asset Gambar di dalam folder ini)/JS/subscription_scripts.js"></script>
+</body>
+</html>
